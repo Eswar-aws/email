@@ -6,7 +6,7 @@
 
   <groupId>com.india.Spring</groupId>
   <artifactId>Spring-MVC-EmailAttachment</artifactId>
-  <version>1.0</version>
+  <version>2.0</version>
   <packaging>war</packaging>
 
   <name>Email</name>
