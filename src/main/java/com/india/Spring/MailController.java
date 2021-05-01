@@ -33,9 +33,9 @@ public class MailController {
 	@RequestMapping(value="/send", method=RequestMethod.POST)
 	public String sendTo(HttpServletRequest req,final @RequestParam CommonsMultipartFile attachFile)
 	{
-		String rece=req.getParameter("recepient");
-		String sub=req.getParameter("subject");
-		String mess=req.getParameter("message");
+	final String rece=req.getParameter("recepient");
+	final String sub=req.getParameter("subject");
+	final String mess=req.getParameter("message");
 		
 		javaMailSender.send(new MimeMessagePreparator() {
 			
